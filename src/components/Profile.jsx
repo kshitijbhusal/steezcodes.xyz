@@ -13,7 +13,7 @@ const Profile = () => {
         </div>
         <div className="  w-2/7 flex flex-col justify-center items-center  ">
           <img
-            className="w-48 h-48  object-cover rounded-full border-4 dark:border-zinc-800 border-zinc-900 "
+            className="w-48 h-48  object-cover rounded-full border-4 dark:border-zinc-700 border-zinc-800 "
             src={profile}
             alt=""
           />
