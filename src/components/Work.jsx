@@ -14,8 +14,8 @@ const Work = () => {
     <>
       <div className="p-8 bg-zinc-800 rounded-lg   flex flex-col gap-8">
         <div className="">
-          <h1 className="text-4xl font-bold mb-2">Proof of Work</h1>
-          <p className="text-lg text-zinc-400 ">
+          <h1 className="text-2xl md:text-4xl font-bold mb-2">Proof of Work</h1>
+          <p className="text-xs font-semibold :text-lg text-zinc-400 ">
             All the work I have done so far in public && people's appreciation
           </p>
         </div>
@@ -56,10 +56,10 @@ function ProofOfWork() {
               target="_blank"
               rel="noreferrer"
               key={i}
-              className="p-2 bg-zinc-800 rounded-lg border-2 border-zinc-700 cursor-pointer text-base font-medium items-center flex gap-3 mb-2 hover:bg-zinc-700 hover:border-zinc-600 hover:mr-10"
+              className="p-2 bg-zinc-800 rounded-lg border-2 border-zinc-700 cursor-pointer text-xs md:text-base font-medium items-center flex gap-3 mb-2 hover:bg-zinc-700 hover:border-zinc-500 hover:mr-10"
               href={el.href}
             >
-              {icon}
+              <div>{icon}</div>
               {el.name}{" "}
             </a>
           );
