@@ -47,14 +47,14 @@ const Footer = () => {
           </ul>
 
           <div>
-            <p>
+            <p className="text-xs md:text-lg">
               {" "}
               © {new Date().getFullYear()} Kshitij Bhusal. All right reserved.{" "}
             </p>
           </div>
           <div>
             {" "}
-            <p>kshitijbhusal64@gmail.com</p>
+            <p className="text-xs md:text-lg">kshitijbhusal64@gmail.com</p>
           </div>
         </footer>
       </div>
