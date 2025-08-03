@@ -1,5 +1,10 @@
 const links = [
   {
+    name: "SajiloIPO - Bulk IPO application webapp for Investors.",
+    href: "https://sajiloipo.vercel.app/",
+    icon: "github-project",
+  },
+  {
     name: "Coinruma - AI-powered platform for instant, easy-to-understand breakdowns of any crypto and blockchain.",
     href: "https://coinruma.vercel.app",
     icon: "github-project",
