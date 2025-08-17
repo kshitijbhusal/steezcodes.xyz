@@ -12,7 +12,7 @@ import {
 const Work = () => {
   return (
     <>
-      <div className="p-8 bg-zinc-800 rounded-lg   flex flex-col gap-8">
+      <div className="p-4 md:p-8 bg-zinc-800 rounded-lg   flex flex-col gap-8">
         <div className="">
           <h1 className="text-2xl md:text-2xl font-bold mb-2">Proof of Work</h1>
           <p className="text-xs font-semibold md:text-base text-zinc-400 ">
